@@ -1,6 +1,6 @@
-##Controle de Vendas para Revendedores (CVR)
+#Controle de Vendas para Revendedores (CVR)
 
-###Esse sistema foi proposto e desenvolvido  para ser apresentado como projeto final do curso de sistemas de informação (TCC)
+#Esse sistema foi proposto e desenvolvido  para ser apresentado como projeto final do curso de sistemas de informação (TCC)
 ------------
 #Descrição
 
@@ -18,7 +18,7 @@ Neste dashboard ele irá visualizar dados como por exemplo: produto mais vendido
 
 Para ter acesso ao PowerBI, esse revendedor teria que assinar um plano mensal
 
-##Tecnologias utilizadas
+#Tecnologias utilizadas
 
 - ReactJS
 - Redux, Redux
@@ -30,7 +30,7 @@ Para ter acesso ao PowerBI, esse revendedor teria que assinar um plano mensal
 
 ------------
 
-###Você pode acessar o sistema, basta clicar [aqui](http://192.99.172.182:3000/login).
+#Você pode acessar o sistema, basta clicar [aqui](http://192.99.172.182:3000/login).
 ------------
 
 
