@@ -1,8 +1,8 @@
 ##Controle de Vendas para Revendedores (CVR)
 
-#### Esse sistema foi proposto e desenvolvido  para ser apresentado como projeto final do curso de sistemas de informação (TCC)
+###Esse sistema foi proposto e desenvolvido  para ser apresentado como projeto final do curso de sistemas de informação (TCC)
 ------------
-##Descrição
+#Descrição
 
  O CVR é um sistema multiplatarforma que tem o objetivo de auxiliar
 revendedores de pequeno e médio porte. 
@@ -30,7 +30,7 @@ Para ter acesso ao PowerBI, esse revendedor teria que assinar um plano mensal
 
 ------------
 
-#####Você pode acessar o sistema, basta clicar [aqui](http://192.99.172.182:3000/login).
+###Você pode acessar o sistema, basta clicar [aqui](http://192.99.172.182:3000/login).
 ------------
 
 
