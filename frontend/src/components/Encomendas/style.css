@@ -1,0 +1,101 @@
+#encomenda-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#encomenda-wrapper h3 {
+    flex: 1;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+#encomenda-wrapper .form-field {
+    flex: 1;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+#encomenda-wrapper span {
+    margin-right: .5rem;
+}
+
+#encomenda-wrapper .back-home {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+#encomendas-wrapper {
+    width: 100%;
+    margin-top: -1rem;
+    border-spacing: 0 1rem;
+    border-collapse:separate;
+    font-size: 1.2rem;
+}
+
+#encomendas-wrapper .encomenda {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#encomendas-wrapper .encomenda{
+    background-color: var(--color-borders);
+}
+
+#encomendas-wrapper .encomenda:nth-child(2n){
+    background-color: var(--color-shape);
+}
+
+#encomendas-wrapper .encomenda img{
+    height: 4rem;
+}
+
+#encomendas-wrapper th,
+#encomendas-wrapper td {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#cadastros-wrapper td {
+    color: #fff;
+}
+
+.encomenda td .situacao {
+    width: 2rem;
+    display: inline-block;
+    height: 2rem;
+    padding: .2rem;
+    border-radius: 2rem;
+  }
+  
+.encomenda td .situacao.aprovado {
+    background-color: #2d563a;
+    color: #3bfc91;
+}
+  
+.encomenda td .situacao.cancelado {
+    background-color: #ffe6e2;
+    color: #fc573b;
+}
+
+.encomenda td .situacao.pendente {
+    background-color: #564f2d;
+    color: #fce23b;
+}
+
+::-webkit-scrollbar {
+    width: .5rem;
+    height: .8rem;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255, .1);
+    border-radius: .2rem;
+    border: solid 1rem rgba(255,255,255, .1);
+}

@@ -1,0 +1,87 @@
+.modal-wrapper{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+}
+
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 100%;
+    margin: 2rem auto;
+}
+
+.modal-header{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    background: var(--color-shape);
+}
+
+.modal-header .titulo {
+    font-size: 1.6rem;
+}
+
+.modal-header .back-home{
+    flex: 1;
+    text-align: right;
+}
+
+.modal-body {
+    padding: 2rem;
+    background-color: var(--color-bg);
+    overflow: auto;
+    max-height: 70rem;
+}
+
+.modal-body .modal-label {
+    display: block;
+    margin: .5rem;
+    font-size: 1.4rem;
+}
+
+.fotoModal {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.fotoModal #imagemModal {
+    height: 10rem;
+}
+
+.form-wrapper {
+    margin-top: 2rem;
+}
+
+.modalForm{
+    width: 100%;
+}
+
+.form-field.modalForm{
+    margin-left: 0;
+}
+
+.btn-evento.aceitar-encomenda,
+.btn-evento.recusar-encomenda {
+    border-radius: 0;
+}
+
+/* .btn-evento.aceitar-encomenda {
+    background-color: var(--color-text-success);
+} */
+
+.btn-evento.recusar-encomenda {
+    background-color: var(--color-text-error);
+}
+
+.btn-evento.recusar-encomenda:hover {
+  background-color: #ce3838;
+}
+
+  

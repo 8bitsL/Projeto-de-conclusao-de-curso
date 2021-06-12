@@ -1,0 +1,253 @@
+:root {
+  --color-bg: #121214;
+  --color-primary: #ff4000;
+  --color-primary-hover: #f36c40;
+  --color-secondary: #e1e1e6;
+  --color-text: #a8a8b3;
+  --color-text-error: #ff5050;
+  --color-text-success: #82ff50;
+  --color-shape: #202024;
+  --color-shape-hover: #29292e;
+  --color-icons: #41414d;
+  --color-borders: #323238;
+}
+
+html {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 10px;
+  color: var(--color-text);
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: var(--color-bg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div {
+  box-sizing: content-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+#root {
+  height: 100%;
+}
+
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 1.2rem;
+  color: var(--color-text);
+}
+
+.form-field input,
+.form-field select {
+  /* flex: 1; */
+  font-size: 1.6rem;
+  border: solid .1rem var(--color-borders);
+  background: var(--color-bg);
+  color: var(--color-text);
+  padding: 1.5rem 1.5rem 1.5rem 4.5rem;
+  border-radius: .5rem;
+  outline: none;
+  appearance: none;
+}
+
+.form-field input:hover,
+.form-field select:hover {
+  border-color: var(--color-primary-hover);
+}
+
+.form-field input:focus,
+.form-field select:focus {
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.form-field label {  
+  font-size: 1.4rem;
+}
+
+.form-submit button {
+  width: 100%;
+  padding: 1.5rem;
+  margin-top: 4rem;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.form-field i {
+  position: absolute;
+  top: 1.4rem;
+  margin-left: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--color-icons);
+}
+
+.form-field i.bi-eye-slash,
+.form-field i.bi-eye,
+.form-field i.bi-caret-down-fill {
+  right: 1.5rem;
+  margin: 0;
+}
+
+.form-field input.error,
+.form-field select.error {
+  border-color: var(--color-text-error); 
+}
+
+.form-field .error-validate {
+  margin: .5rem 0 0 .5rem;
+  font-size: 1.2rem;
+  color: var(--color-text-error);
+}
+
+/* Switch input style */
+
+.form-field .switch {
+  position: relative;
+  display: inline-block;
+  width: 4rem;
+  height: 2rem;
+}
+
+.form-field .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.form-field .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-bg);
+  border: solid .1rem var(--color-borders);
+  transition: .4s;
+}
+
+.form-field .slider:before {
+  position: absolute;
+  content: "";
+  height: 1.2rem;
+  width: 1.2rem;
+  left: .5rem;
+  bottom: .3rem;
+  background-color: var(--color-icons);
+  transition: .4s;
+}
+
+.form-field input:checked + .slider {
+  background-color: var(--color-primary);
+}
+
+.form-field input:checked + .slider:before {
+  transform: translateX(1.5rem);
+  background-color: var(--color-secondary);
+}
+
+/* Rounded sliders */
+.form-field .slider.round {
+  border-radius: 34px;
+}
+
+.form-field .slider.round:before {
+  border-radius: 50%;
+}
+
+.scroll-table {
+  overflow: auto;
+  height: 100%;
+}
+
+.msg {
+  margin: .5rem 0;
+  padding: .5rem;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: var(--color-shape);
+  border: solid .1rem var(--color-borders);
+}
+
+.btn-evento {
+  padding: .5rem;
+  border: none;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 1.5rem;
+  transition: all .5s;
+}
+
+.btn-evento:hover {
+  background-color: var(--color-primary-hover);
+}
+
+#contatos-wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: all .5s;
+}
+
+#contatos-wrapper .contatos{
+  display: flex;
+  padding: 1rem;
+  margin:0 5rem 1rem 0;
+  background: var(--color-shape);
+  color: #fff;
+  font-size: 1.4rem;
+  transition: all .5s;
+  opacity: 0;
+}
+
+#contatos-wrapper .mostrar-contatos {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-size: 4rem;
+  cursor: help;
+}
+
+#contatos-wrapper i.bi.bi-info-circle-fill {
+  position: absolute;
+  right: 0;
+  padding: 1rem;
+  opacity: .3;
+  transition: all .5s;
+}
+
+#contatos-wrapper i.bi.bi-info-circle-fill:hover,
+#contatos-wrapper i.bi.bi-info-circle-fill:hover ~ .contatos{
+  opacity: 1;
+}

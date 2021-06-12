@@ -1,0 +1,27 @@
+ #editar-dados-wrapper {
+   width: 100%;
+ }
+
+#editar-dados-wrapper h3 {
+    flex: 1;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+#editar-dados-wrapper .form-field {
+  flex: 1;
+  margin-right: .5rem;
+  margin-left: .5rem;
+}
+
+#editar-dados-wrapper span {
+    margin-right: .5rem;
+}
+
+#editar-dados-wrapper #cancelar-edicao-dados {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 3rem;
+    color: var(--color-text);
+}

@@ -1,0 +1,122 @@
+nav {
+  display: flex;
+  min-height: 10rem;
+  padding: 1rem 4rem;
+  border-bottom: solid .1rem var(--color-borders);
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  background-color: var(--color-shape);
+  overflow: hidden;
+}
+
+nav img {
+  max-width: 8rem;
+}
+
+#infos-user-wrapper {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  text-align: right;
+}
+#infos-user-wrapper .actions-nav {
+  flex: 1;
+  margin-right: 1.5rem;
+}
+
+#infos-user-wrapper .actions-nav button {
+  position: relative;
+  line-height: 0;
+  margin: 0 .5rem;
+  padding: .5rem;
+  border: none;
+  background-color: var(--color-bg);
+  font-size: 2rem;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+#infos-user-wrapper .actions-nav button span{
+  position: absolute;
+  bottom: -.5rem;
+  right: -.5rem;
+  width: 1.5rem;
+  height: 1rem;
+  padding: .1rem;
+  line-height: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+#infos-user-wrapper .rotulo-user {
+  margin-right: 1rem;
+  font-size: 4rem;
+}
+
+#infos-user-wrapper .rotulo-user .imgUsuario {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
+#infos-user-wrapper .infos{
+  margin-right: 4rem;
+}
+
+#infos-user-wrapper #account-setting {
+  background: var(--color-bg);
+  border: solid .1rem var(--color-borders);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all .5s;
+  outline: none;
+}
+
+/* #infos-user-wrapper #account-setting:hover {
+  color: var(--color-text);
+  background: var(--color-bg);
+} */
+
+#log-out-rotulo {
+  cursor: pointer;
+}
+
+#log-out-rotulo button {
+  flex: 1;
+  border: none;
+  background: none;
+  font-size: 1.6rem;
+  color: var(--color-text);
+}
+
+#log-out-rotulo button span {
+  margin-left: .5rem;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .actions-nav {
+    display: none;
+  }
+
+  #account-setting {
+    display: none;
+  }
+
+  #infos-user-wrapper {
+    display: block;
+  }
+
+  #infos-user-wrapper .infos {
+    margin: 0;
+  }
+
+  #log-out-rotulo {
+    display: none;
+  }
+}
