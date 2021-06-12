@@ -1,4 +1,4 @@
-# #Controle de Vendas para Revendedores (CVR)
+##Controle de Vendas para Revendedores (CVR)
 
 #### Esse sistema foi proposto e desenvolvido  para ser apresentado como projeto final do curso de sistemas de informação (TCC)
 ------------
@@ -20,12 +20,12 @@ Para ter acesso ao PowerBI, esse revendedor teria que assinar um plano mensal
 
 ##Tecnologias utilizadas
 
-- ####ReactJS
-- #### Redux, Redux
-- ####Thunk 
-- ####Redux-Multi
-- ####NodeJS
-- ####PowerBI Desktop
+- ReactJS
+- Redux, Redux
+- Thunk 
+- Redux-Multi
+- NodeJS
+- PowerBI Desktop
 
 
 ------------
