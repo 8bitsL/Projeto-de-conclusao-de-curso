@@ -1,10 +1,9 @@
-#Controle de Vendas para Revendedores (CVR)
-
-#Esse sistema foi proposto e desenvolvido  para ser apresentado como projeto final do curso de sistemas de informação (TCC)
+Controle de Vendas para Revendedores (CVR)
 ------------
+Esse sistema foi proposto e desenvolvido  para ser apresentado como projeto final do curso de sistemas de informação (TCC)
 
-#Descrição
-
+Descrição
+------------
  O CVR é um sistema multiplatarforma que tem o objetivo de auxiliar
 revendedores de pequeno e médio porte. 
 
@@ -19,19 +18,18 @@ Neste dashboard ele irá visualizar dados como por exemplo: produto mais vendido
 
 Para ter acesso ao PowerBI, esse revendedor teria que assinar um plano mensal
 
-#Tecnologias utilizadas
-
+Tecnologias utilizadas
+------------
 - ReactJS
-- Redux, Redux
-- Thunk 
+- Redux
+- Redunx-Thunk 
 - Redux-Multi
 - NodeJS
+- Express
 - PowerBI Desktop
 
-
 ------------
-
-#Você pode acessar o sistema, basta clicar [aqui](http://192.99.172.182:3000/login).
+Você pode acessar o sistema clicando [aqui](http://192.99.172.182:3000/login).
 ------------
 
 
