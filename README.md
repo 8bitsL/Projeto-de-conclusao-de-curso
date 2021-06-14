@@ -37,7 +37,7 @@ Para ter acesso ao PowerBI, esse revendedor teria que assinar um plano mensal
 
 ### Autores
 
-* [Leonardo Fernandes](https://github.com/8bitsL)
+* [Leonardo Fernandes](https://www.linkedin.com/in/leonardo-fernandes-289848197/)
 * [Robson César](https://www.linkedin.com/in/robson-c%C3%A9sar-gomes-quintino-439a61148/)
 
 ### Licença
